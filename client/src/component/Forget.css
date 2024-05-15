@@ -1,0 +1,10 @@
+.firstpart{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    
+}
+.firstpart h1 ,.firstpart p{
+    color: white;
+}

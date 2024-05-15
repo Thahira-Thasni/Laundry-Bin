@@ -1,0 +1,48 @@
+.body {
+    /* width: 100vw; */
+    overflow-x: hidden;
+    background: #1facf3;
+    display: flex;
+    align-items: center;
+   justify-content: center;position: relative;
+}
+.in{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    gap: 30px;
+    margin-top: 80px;
+}
+h1 {
+   
+    font-size: 30px;
+}
+h2{
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    font-weight: 300;
+}
+ .position_wmechiene img{
+    width: 100vw;
+    height: 94vh;
+}
+
+.image2 {
+    position: relative;
+}
+.arrow {
+    height: 140px !important;
+    width: 140px !important;
+    position: absolute;
+    /* top: 45%;
+    left: 42%; */
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) ;
+
+}

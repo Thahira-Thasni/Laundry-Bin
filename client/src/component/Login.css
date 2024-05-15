@@ -1,0 +1,44 @@
+.third_body {
+    min-height: 100vh;
+    background: #1facf3;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.net {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50vw;
+    height: 450px;
+    z-index: 1;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 20px;
+    justify-content: center;
+}
+.button_div {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+.button_div button {
+    width: 500px;
+    padding: 20px 50px;
+    border-radius: 25px;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+}
+.centerDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
