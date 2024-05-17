@@ -8,6 +8,7 @@ const connectDB = require("./config/database");
 app.use(cors());
 
 const port = 2001;
+//! const port = process.env.port || 2001;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
